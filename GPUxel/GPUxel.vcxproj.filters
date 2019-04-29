@@ -1,0 +1,116 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Common">
+      <UniqueIdentifier>96cf6c2e-7f91-463b-b239-64b5ce584f1a</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Assets">
+      <UniqueIdentifier>cb8695bd-6ea2-4f2a-a5dc-70e3ac6d1cdd</UniqueIdentifier>
+      <Extensions>bmp;fbx;gif;jpg;jpeg;tga;tiff;tif;png</Extensions>
+    </Filter>
+    <Filter Include="Content">
+      <UniqueIdentifier>185674b7-ae2f-4c78-ac09-da0a455a35b9</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="Common\DirectXHelper.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\StepTimer.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\DeviceResources.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClCompile Include="Common\DeviceResources.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClInclude Include="Content\Hvy3DScene.h">
+      <Filter>Content</Filter>
+    </ClInclude>
+    <ClInclude Include="Content\HUD.h">
+      <Filter>Content</Filter>
+    </ClInclude>
+    <ClInclude Include="Content\ShaderStructures.h">
+      <Filter>Content</Filter>
+    </ClInclude>
+    <ClCompile Include="Content\Hvy3DScene.cpp">
+      <Filter>Content</Filter>
+    </ClCompile>
+    <ClCompile Include="Content\HUD.cpp">
+      <Filter>Content</Filter>
+    </ClCompile>
+    <FxCompile Include="Content\t1PixelShader.hlsl">
+      <Filter>Content</Filter>
+    </FxCompile>
+    <FxCompile Include="Content\t1VertexShader.hlsl">
+      <Filter>Content</Filter>
+    </FxCompile>
+    <Image Include="Assets\LockScreenLogo.scale-200.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\SplashScreen.scale-200.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\Square150x150Logo.scale-200.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\Square44x44Logo.scale-200.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\Wide310x150Logo.scale-200.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Filter Include="ImageAPI">
+      <UniqueIdentifier>{03cbc5e3-711a-40ee-be72-13f3ce418f83}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="App.cpp" />
+    <ClCompile Include="GPUxelMain.cpp" />
+    <ClCompile Include="pch.cpp" />
+    <ClCompile Include="ImageAPI\TessellationRenderer.cpp">
+      <Filter>ImageAPI</Filter>
+    </ClCompile>
+    <ClCompile Include="ImageAPI\FDTMaskRenderer.cpp">
+      <Filter>ImageAPI</Filter>
+    </ClCompile>
+    <ClCompile Include="ImageAPI\AsynchronousMethods.cpp">
+      <Filter>ImageAPI</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="App.h" />
+    <ClInclude Include="GPUxelMain.h" />
+    <ClInclude Include="pch.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Assets\StoreLogo.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\0_Output_Image_Surrogate_1200.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\0_Input_Image_1024.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\0_Output_Image_Surrogate_300.png">
+      <Filter>Assets</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxManifest Include="Package.appxmanifest" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="GPUxel_TemporaryKey.pfx" />
+  </ItemGroup>
+  <ItemGroup>
+    <FxCompile Include="ImageAPI\FDTMaskComputeShader.hlsl">
+      <Filter>ImageAPI</Filter>
+    </FxCompile>
+    <FxCompile Include="ImageAPI\TessellationComputeShader.hlsl">
+      <Filter>ImageAPI</Filter>
+    </FxCompile>
+  </ItemGroup>
+</Project>
